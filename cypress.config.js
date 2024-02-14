@@ -5,5 +5,13 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
+
+    baseUrl: '',
+    viewportHeight: 1000,
+    defaultCommandTimeout: 30000,
+    viewportWidth: 1500,
+    experimentalStudio: true,
+    force: true,
+
   },
 });
