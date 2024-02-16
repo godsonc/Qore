@@ -1,1 +1,3 @@
-cy.visit
+it('Qore', () => {
+    cy.visit('/')
+}) 
