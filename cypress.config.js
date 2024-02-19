@@ -8,7 +8,7 @@ module.exports = defineConfig({
 
     baseUrl: '',
     viewportHeight: 1000,
-    defaultCommandTimeout: 30000,
+    defaultCommandTimeout: 3000,
     viewportWidth: 1500,
     experimentalStudio: true,
     force: true,
