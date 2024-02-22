@@ -6,7 +6,7 @@ module.exports = defineConfig({
       // implement node event listeners here
     },
 
-    baseUrl: '',
+    baseUrl: 'https://qore.enyata.com',
     viewportHeight: 1000,
     defaultCommandTimeout: 3000,
     viewportWidth: 1500,
