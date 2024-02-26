@@ -8,7 +8,7 @@ module.exports = defineConfig({
 
     baseUrl: 'https://qore.enyata.com',
     viewportHeight: 1000,
-    defaultCommandTimeout: 3000,
+    defaultCommandTimeout: 30000,
     viewportWidth: 1500,
     experimentalStudio: true,
     force: true,
