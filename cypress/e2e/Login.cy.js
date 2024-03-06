@@ -1,6 +1,6 @@
-it('gabbi health', () => {
+it('qore', () => {
     cy.visit('/')
-    
+
     cy.get('[data-testid="test-emailAddress"]')
        .type('chinedu@enyata.com')
 
