@@ -5,7 +5,7 @@ it('qore', () => {
         .type('chinedu@enyata.com')
 
     cy.get('[data-testid="password"]')
-        .type('P@ssword01{enter}')
+        .type('P@ssword01{enter}');
       
        
 })
