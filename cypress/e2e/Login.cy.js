@@ -6,6 +6,8 @@ it('qore', () => {
 
     cy.get('[data-testid="password"]')
         .type('P@ssword01{enter}')
+
+    cy.type
       
        
 })
