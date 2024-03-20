@@ -12,6 +12,7 @@ module.exports = defineConfig({
     viewportWidth: 1500,
     experimentalStudio: true,
     force: true,
+    chromeWebSecurity: true,
 
   },
 });
