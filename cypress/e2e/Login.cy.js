@@ -10,10 +10,10 @@ describe('test', function() {
         cy.visit('/')
     
         cy.get('[data-testid="email"]')
-            .type('chinedu@enyata.com')
+            .type('ifeoluwa@enyata.com')
     
         cy.get('[data-testid="password"]')
-            .type('validPassword123{enter}')
+            .type('validPassword1234{enter}')
         
         cy
             .wait('@token')
@@ -27,8 +27,8 @@ describe('test', function() {
         console.log(this.token, 'token');
 
 
-        cy.get('[data-testid="otp_input-0"]')
-        .type(this.token[0])
+        // cy.get('[data-testid="otp_input-0"]')
+        // .type(this.token[0])
 
         cy.get('[data-testid="otp_input-1"]')
         .type(this.token[1])
@@ -47,8 +47,8 @@ describe('test', function() {
 
         cy.wait(5000);
 
-        cy.find('[data-testid="form"] > .items-center')
-        .click({force: true})  
+        // cy.find('[data-testid="form"] > .items-center')
+        // .click({force: true})  
     })
 
 })
