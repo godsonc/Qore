@@ -1,5 +1,5 @@
 describe("test", function () {
-    it("qore", () => {
+    it("qoray", () => {
         let token;
         cy.intercept("https://qore-api.enyata.com/api/v1/auth/login/").as("token");
 
@@ -23,7 +23,7 @@ describe("test", function () {
 
         console.log(this.token, "token");
 
-        cy.get('[data-testid="otp_input-0"]').type(this.token,[0]);
+        // cy.get('[data-testid="otp_input-0"]').type(this.token[0])
 
         // cy.get('[data-testid="otp_input-1"]')
         // .type(this.token[1])
