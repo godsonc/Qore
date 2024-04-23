@@ -23,7 +23,8 @@ describe("test", function () {
 
         console.log(this.token, "token");
 
-        // cy.get('[data-testid="otp_input-0"]').type(token.['data-testid="otp_input-0'])
+        cy.get('[data-testid="otp_input-0"]').type(this.token)
+        cy.wait(5000);
 
         // cy.get('[data-testid="otp_input-1"]')
         // .type(this.token[1])
